@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 90%;
+	text-align: center;
+	font-family: Arial;
+	color: #000;
+}
+
+#top {
+	font-size: 2em;
+	width: 100%;
+	height: 2em;
+	margin-top: 1em;
+}
+
+#nav li {
+	display: inline;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+.content {
+	margin-top: 1%;
+}
+
+.form-group {
+	margin-top: 0.5%;
+}

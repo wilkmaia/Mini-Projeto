@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="utf-8">
+
+	<link href="main.css" rel="stylesheet">
+
+	<title>Mini-Projeto FaturaSimples</title>
+</head>
+
+<body>
+	<div id="top">
+		Mini-Projeto
+	</div>
+
+	<div id="nav">
+		<ul>
+			<li><a href="#" onclick="inserirVenda();">Inserir Venda</a></li>
+			<li><a href="#" onclick="listarBoletos();">Listar Boletos</a></li>
+		</ul>
+	</div>
+
+	<div class="content" id="inserirVenda">
+		<form id="form-venda">
+			<div class="form-group">
+				<label for="valor">Valor</label>
+				<input type="number" id="valor" placeholder="0" required />
+			</div>
+
+			<div class="form-group">
+				<button type="reset">Limpar</button>
+				<button type="submit" id="inserir">Inserir</button>
+			</div>
+		</form>
+
+		<div id="return-msg">
+		</div>
+	</div>
+
+	<div class="content" id="listarBoletos" style="display: none;">
+		LISTAR
+	</div>
+
+</body>
+
+</html>
+
+<script src="js/jquery-1.12.3.min.js"></script>
+<script src="js/main.js"></script>
